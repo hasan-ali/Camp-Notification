@@ -120,7 +120,7 @@ else:
 
 #message = str(range_date)
 
-webhook_url = 'https://hooks.slack.com/services/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'
+webhook_url = URL_WITH_SECRET
 message = {'text': message}
 
 response = requests.post(
